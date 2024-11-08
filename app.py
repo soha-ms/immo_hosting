@@ -17,3 +17,4 @@ async def root():
 async def say_hello(user: str = "Anonymous"):
     """Route that will return 'hello {user}'."""
     return {"Message": f"Hello {user}!"}
+
